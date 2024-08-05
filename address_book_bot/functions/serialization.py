@@ -15,7 +15,8 @@ def save_data(book, filename="addressbook.pkl"):
 
 def load_data(filename="addressbook.pkl"):
     """
-    Loads the restores state of AddressBook.
+    Creates an empty AddressBook or loads 
+    restored state of AddressBook.
     """
     try:
         with open(filename, "rb") as f:
